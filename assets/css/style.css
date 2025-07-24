@@ -6,9 +6,9 @@ body {
 }
 .corner-img {
   position: fixed;    /* 👈 Makes it fixed on the screen */
-  top: 10px;          /* 👈 Distance from the top */
-  right: 10px;        /* 👈 Distance from the right */
-  width: 60px;        /* 👈 Adjust size */
+  top: 1000px;          /* 👈 Distance from the top */
+  right: 300px;        /* 👈 Distance from the right */
+  width: 300px;        /* 👈 Adjust size */
   height: auto;
   z-index: 1000;      /* 👈 Makes sure it stays on top of other stuff */
 }
