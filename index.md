@@ -3,7 +3,7 @@ layout: default
 title: Blog by Dirt
 ---
 
-#                                                                     Welcome to My Blog
+# Welcome to My Blog
 
 This is my homepage, written in Markdown.
 
