@@ -5,16 +5,16 @@ title: Blog by Dirt
 
 # Welcome to My Blog
 
-
 ## About Me
 
-I like to play my bass guitar, write some code and listen music.
-I am playing my bass profesionly on gigs for about 2 years now and its a significant part of my daily life beside actual lessons in universty of course
+I like to play bass guitar, write code, and listen to music.  
+I've been playing bass professionally at gigs for about two years now, and it's a significant part of my daily life—aside from attending university, of course.
+
 ## Skills
 
-- prefesionel musician 
-- low level coding experience
-- know C# and java
+- Professional musician  
+- Basic experience with low-level coding  
+- Familiar with C# and Java
 
 ### Contact
 
