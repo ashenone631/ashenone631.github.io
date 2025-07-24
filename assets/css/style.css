@@ -8,7 +8,9 @@ body {
 h1, h2, h3, h4, h5, h6 {
   color: #d62828; /* Bold red headings */
 }
-
+h1{
+  text-align: center;
+}
 a {
   color: #4361ee; /* Vivid blue links */
   text-decoration: none;
