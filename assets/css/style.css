@@ -4,6 +4,14 @@ body {
   font-family: 'Segoe UI', sans-serif;
   padding: 2rem;
 }
+.corner-img {
+  position: fixed;    /* 👈 Makes it fixed on the screen */
+  top: 10px;          /* 👈 Distance from the top */
+  right: 10px;        /* 👈 Distance from the right */
+  width: 60px;        /* 👈 Adjust size */
+  height: auto;
+  z-index: 1000;      /* 👈 Makes sure it stays on top of other stuff */
+}
 
 h2, h3, h4, h5, h6 {
   color: #d62828; /* Bold red headings */
