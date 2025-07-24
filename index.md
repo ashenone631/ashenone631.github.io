@@ -10,7 +10,6 @@ title: Blog by Dirt
 
 I like to play my bass guitar, write some code and listen music.
 I am playing my bass profesionly on gigs for about 2 years now and its a significant part of my daily life beside actual lessons in universty of course
-![Alt text](/assets/img/firefox_1rfj9SfmlU.png)
 ## Skills
 
 - prefesionel musician 
