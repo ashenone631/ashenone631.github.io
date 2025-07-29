@@ -12,14 +12,34 @@
 
     <!-- Navigation Menu -->
     <nav class="menu">
-      <a href="/">Home</a>
-      <a href="/concerts.html">Concerts</a>
-      <a href="/pictures.html">Pictures</a>
-      <a href="/contact.html">Contact</a>
+      <!-- Hamburger icon -->
+      <div class="menu-toggle" id="menu-toggle">
+        &#9776; <!-- Hamburger symbol -->
+      </div>
+
+      <!-- Menu links -->
+      <div class="menu-links" id="menu-links">
+        <a href="/">Home</a>
+        <a href="/concerts.html">Concerts</a>
+        <a href="/pictures.html">Pictures</a>
+        <a href="/contact.html">Contact</a>
+      </div>
     </nav>
 
     <!-- Page Content -->
     {{ content }}
+
+    <!-- Hamburger toggle script -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const toggle = document.getElementById("menu-toggle");
+        const links = document.getElementById("menu-links");
+
+        toggle.addEventListener("click", function () {
+          links.classList.toggle("active");
+        });
+      });
+    </script>
     
   </body>
 </html>
