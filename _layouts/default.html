@@ -1,51 +1,25 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="/assets/css/style.css" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/css/style.css" />
+  </head>
+  <body>
 
-  <!-- Fixed corner image -->
-  <img src="/assets/img/firefox_1rfj9SfmlU.png" alt="Guitar" class="corner-img" width="200"/>
+    <!-- Fixed corner image -->
+    <img src="/assets/img/firefox_1rfj9SfmlU.png" alt="Guitar" class="corner-img" width="200"/>
 
- 
+    <!-- Navigation Menu -->
+    <nav class="menu">
+      <a href="/">Home</a>
+      <a href="/about.html">About</a>
+      <a href="/projects.html">Projects</a>
+      <a href="/contact.html">Contact</a>
+    </nav>
 
-<div class="off screen menu">
-  <ul>
-    <li>home</li>
-    <li>concerts</li>
-    <li>pictures</li> 
-    <li>contact</li> 
-
-  </ul>
-</div>
-  <nav>
-    <div class="ham-menu">
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
-  </nav>
-  <!-- Page Content -->
-  <main>
+    <!-- Page Content -->
     {{ content }}
-  </main>
-
-  <!-- Toggle Menu Script -->
-  <script>
-    document.addEventListener("DOMContentLoaded", function () {
-      const toggle = document.getElementById("menu-toggle");
-      const links = document.getElementById("menu-links");
-
-      toggle.addEventListener("click", function () {
-        links.classList.toggle("active");
-      });
-    });
-  </script>
-
-</body>
+    
+  </body>
 </html>
