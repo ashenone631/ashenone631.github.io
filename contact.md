@@ -3,6 +3,8 @@ layout: default
 title: Contact
 ---
 
-# Contact Me
+# Contact
 
-Feel free to reach out through [GitHub](https://github.com/ashenone631) or other platforms.
+Want to get in touch about this fan site or contribute media?
+  
+💬 Find me on [GitHub](https://github.com/ashenone631)
