@@ -29,6 +29,24 @@ a:hover {
   color: #7209b7; /* Purple on hover */
   text-decoration: underline;
 }
+.menu {
+  background-color: #172c66;
+  padding: 1rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.menu a {
+  color: #fef6e4;
+  margin: 0 1rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  color: #ffbe0b;
+  text-decoration: underline;
+}
 
 code {
   background-color: #ffecd1;
