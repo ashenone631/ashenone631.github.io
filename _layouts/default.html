@@ -1,12 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <img src="assets/img/firefox_1rfj9SfmlU.png" alt="Guitar" class="corner-img" width="200"/>
     <meta charset="UTF-8" />
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="/assets/css/style.css" />
   </head>
   <body>
+
+    <!-- Fixed corner image -->
+    <img src="/assets/img/firefox_1rfj9SfmlU.png" alt="Guitar" class="corner-img" width="200"/>
+
+    <!-- Navigation Menu -->
+    <nav class="menu">
+      <a href="/">Home</a>
+      <a href="/about.html">About</a>
+      <a href="/projects.html">Projects</a>
+      <a href="/contact.html">Contact</a>
+    </nav>
+
+    <!-- Page Content -->
     {{ content }}
+    
   </body>
 </html>
