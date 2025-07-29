@@ -6,8 +6,8 @@
 
 .menu a {
   color: white;
-  padding: 10px;
   text-decoration: none;
+  padding: 10px;
   display: inline-block;
 }
 
@@ -15,14 +15,17 @@
   display: none;
   font-size: 24px;
   cursor: pointer;
+  color: white;
 }
 
-@media (max-width: 768px) {
-  .menu a {
-    display: block;
-    padding: 12px;
-  }
+/* Default: show menu links */
+.menu-links {
+  display: flex;
+  flex-direction: row;
+}
 
+/* Mobile view */
+@media (max-width: 768px) {
   .menu-toggle {
     display: block;
   }
@@ -36,5 +39,10 @@
 
   .menu-links.active {
     display: flex;
+  }
+
+  .menu a {
+    padding: 12px;
+    border-top: 1px solid #444;
   }
 }
