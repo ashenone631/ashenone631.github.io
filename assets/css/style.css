@@ -37,49 +37,75 @@ a:hover {
   color: #50fa7b; /* Bright green‑toned hover */
   text-decoration: underline;
 }
-
+/* Container for all albums, stacked vertically and centered */
 .gallery {
   display: flex;
-  flex-direction: column; /* 👈 Stack vertically */
-  align-items: center;     /* 👈 Center align the items */
-  gap: 20px;
+  flex-direction: column;  /* Stack vertically */
+  align-items: center;     /* Center horizontally */
+  gap: 30px;               /* Space between albums */
   padding: 1rem;
 }
 
-.gallery img {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+/* Each album container */
+.album {
+  text-align: center;      /* Center title and image */
+  max-width: 160px;        /* Optional max width to keep things tidy */
 }
 
-.gallery img:hover {
-  transform: scale(1.03);
-  box-shadow: 0 8px 20px rgba(255, 182, 193, 0.6); /* pink glow on hover */
+/* Album title above image */
+.album-title {
+  margin-bottom: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #66B2FF;          /* Bright blue for headers */
+  font-family: 'Segoe UI', sans-serif;
 }
+
+/* Tooltip container */
 .tooltip {
   position: relative;
   display: inline-block;
+  cursor: pointer;
 }
 
-.tooltip .tooltiptext {
-  visibility: hidden;
-  width: 220px;
-  background-color: #333;
-  color: #fff;
-  text-align: center;
+/* Album images */
+.tooltip img {
+  width: 130px;            /* Smaller size */
   border-radius: 6px;
-  padding: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  transition: transform 0.2s ease;
+}
+
+/* Slight zoom effect on hover */
+.tooltip:hover img {
+  transform: scale(1.05);
+}
+
+/* Tooltip text bubble */
+.tooltiptext {
+  visibility: hidden;
+  width: 250px;
+  background-color: #333;   /* Dark background */
+  color: #fff;              /* White text */
+  text-align: left;
+  padding: 12px;
+  border-radius: 8px;
+  
   position: absolute;
-  bottom: 110%; /* Position above the image */
+  z-index: 10;
+  bottom: 110%;            /* Position above the image */
   left: 50%;
   transform: translateX(-50%);
+  
   opacity: 0;
   transition: opacity 0.3s ease;
-  z-index: 1000;
+  font-size: 0.85rem;
+  line-height: 1.4;
+  white-space: normal;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.5);
 }
 
+/* Show tooltip on hover */
 .tooltip:hover .tooltiptext {
   visibility: visible;
   opacity: 1;
