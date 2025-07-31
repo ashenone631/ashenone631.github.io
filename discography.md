@@ -8,7 +8,7 @@ title: Discography
 
 ## Albums
 
- ### solo
+### solo
 
 <div class="gallery2">
  <div class="tooltip2">
