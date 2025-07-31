@@ -8,12 +8,19 @@ title: Discography
 
 ## Albums
 
-### solo
+h3 solo
 
-<div class="gallery2">
- <div class="tooltip2">
-    <img src="/assets/img/jaco4.png" alt="Jaco live" title="Montreux Jazz Festival, 1976"  />
-    <span class="tooltiptext">His first album Cover      1976</span>
+<div class="gallery">
+  <div class="album">
+    <h4 class="album-title">Jaco Pastorius (1976)</h3>
+    <div class="tooltip">
+      <img src="/assets/img/jaco4.png" alt="Jaco Pastorius (1976)" />
+      <span class="tooltiptext">
+        1. Donna Lee<br />
+        2. Come On, Come Over<br />
+        3. Continuum<br />
+        ...
+      </span>
+    </div>
   </div>
- </div>
 
