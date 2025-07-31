@@ -39,9 +39,10 @@ a:hover {
 }
 
 .gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 16px;
+  display: flex;
+  flex-direction: column; /* 👈 Stack vertically */
+  align-items: center;     /* 👈 Center align the items */
+  gap: 20px;
   padding: 1rem;
 }
 
