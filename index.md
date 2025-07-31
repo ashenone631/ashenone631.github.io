@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Blog by Dirt
+title: bit of  Jaco Pastorius 
 ---
 
-# Welcome to My Blog
+# Jaco Pastorius 
 
 ## About Me
 
