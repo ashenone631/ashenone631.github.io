@@ -6,13 +6,11 @@ title: Discography
 # Discography
 
 
-## Albums
-
-h3 solo
+## Solo Albums
 
 <div class="gallery">
   <div class="album">
-    <h4 class="album-title">Jaco Pastorius (1976)</h3>
+    <h4 class="album-title">Jaco Pastorius (1976)
     <div class="tooltip">
       <img src="/assets/img/jaco4.png" alt="Jaco Pastorius (1976)" />
       <span class="tooltiptext">
@@ -22,5 +20,4 @@ h3 solo
         ...
       </span>
     </div>
-  </div>
 
