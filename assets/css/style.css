@@ -49,7 +49,7 @@ a:hover {
 /* Each album container */
 .album {
   text-align: center;      /* Center title and image */
-  max-width: 400px;        /* Optional max width to keep things tidy */
+  max-width: 160px;        /* Optional max width to keep things tidy */
 }
 
 /* Album title above image */
