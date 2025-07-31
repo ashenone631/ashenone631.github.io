@@ -10,7 +10,7 @@ A gallery of important moments from Jaco Pastorius' career:
 <div class="gallery">
   <div class="tooltip">
     <img src="/assets/img/jaco1.png" alt="Jaco live" />
-    <span class="tooltiptext">Montreux Jazz Festival, 1976</span>
+    <span class="tooltiptext">North Sea Jazz Festival , July 10, 1983 </span>
   </div>
   <div class="tooltip">
     <img src="/assets/img/jaco2.png" alt="Jaco live" />
