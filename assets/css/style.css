@@ -1,45 +1,46 @@
 body {
-  background-color: #00FFFF; /* Bright cyan background */
-  color: #003F5C; /* Deep slate-blue text: crisp & readable */
+  background-color: #000033; /* Very dark navy background */
+  color: #A1A8C3; /* Soft moonlight gray text */
   font-family: 'Segoe UI', sans-serif;
   padding: 2rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #FF4500; /* Orange‑red headings: strong complementary contrast */
+  color: #3f68d0; /* Han Blue headings */
 }
 h1 {
   text-align: center;
 }
 
 a {
-  color: #0077CC; /* Soft blue links: calmer than vivid, still visible */
+  color: #82b9d6; /* Dark sky‑blue links */
   text-decoration: none;
 }
 a:hover {
-  color: #FF8C00; /* Warm orange hover: vibrant yet readable */
+  color: #ffb86c; /* Warm orange hover accent */
   text-decoration: underline;
 }
 
 .menu {
-  background-color: #003F5C; /* Matches text color for cohesion */
+  background-color: #142c8c; /* Indigo dye background */
   padding: 1rem;
   text-align: center;
   margin-bottom: 2rem;
 }
 .menu a {
-  color: #F0F8FF; /* Very light cyan‑white links */
+  color: #E0FFFF; /* Light cyan‑white links */
   margin: 0 1rem;
   font-weight: bold;
   text-decoration: none;
 }
 .menu a:hover {
-  color: #FFA07A; /* Soft orange-pink highlight */
+  color: #50fa7b; /* Bright green‑toned hover */
   text-decoration: underline;
 }
 
 code {
-  background-color: #E0FFFF; /* Pale cyan for subtle contrast */
+  background-color: #2F4F4F; /* Dark slate‑gray code bg */
+  color: #C1CDCD; /* Light azure‑gray text */
   padding: 2px 4px;
   border-radius: 4px;
   font-family: monospace;
